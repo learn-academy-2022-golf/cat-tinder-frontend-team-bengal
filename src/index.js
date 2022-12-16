@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom"
 
 // Add bootstrap import
-bootstrap/dist/css/bootstrap.min.css
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 // Begin root
 const root = ReactDOM.createRoot(document.getElementById('root'));
