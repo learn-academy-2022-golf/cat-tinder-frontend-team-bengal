@@ -1,3 +1,90 @@
+
+# GitFlow 
+to run Yarn after fresh git 
+to consider -M attribute for master -> main conversions
+
+# Problems
+1. Image not showing in header component
+2. 
+
+
+# new branch: front-end-one
+
+# As a developer, I can create a directory in src called pages. ✅
+
+# As a developer, I can create a directory in src called components. ✅
+
+ $ yarn start
+
+works beautifully
+
+# As a developer, I can create a directory in src called assets.✅
+
+# As a developer, I can create a file called Header.js in the components directory. ✅
+
+# As a developer, I can create a file called Footer.js in the components directory.✅
+
+# As a developer, I can create a file called Home.js in the pages directory. ✅
+
+# As a developer, I can create a file called CatIndex.js in the pages directory. ✅ 
+
+# As a developer, I can create a file called CatShow.js in the pages directory. ✅ 
+
+# As a developer, I can create a file called CatNew.js in the pages directory. ✅ 
+
+# As a developer, I can create a file called CatEdit.js in the pages directory.✅
+
+# As a developer, I can create a file called NotFound.js in the pages directory.✅
+
+# Need to fill all of the above ✅
+
+# As a developer, I can add a file to src called mockCats.js ✅
+
+# Add an array of cat objects that match the future backend data structure. ✅
+
+# As a developer, I can add Reactstrap to my application ✅
+
+ $ yarn add react-router-dom ✅
+
+import { BrowserRouter } from "react-router-dom" // add this import
+
+## May have needed to install boostrap before reactstrap, ruh-roh ✅
+ $ yarn add reactstrap ✅
+ $ yarn add boostrap ✅
+
+Add to src/index.js:
+# import 'bootstrap/dist/css/bootstrap.min.css <-- syllabus said this one
+# import 'bootstrap/dist/css/bootstrap.css'; <-- docs say this one
+
+# As a developer, I can create header UI. ✅
+HINT: Check out Canva to make fun logos. *** HIDDEN LINK IN SYLLABUS ***
+Imported from example to header component
+
+# As a developer, I can create footer UI. ✅
+
+
+# As a developer, I can see the header and footer on every page. ✅
+
+
+# As a developer, I can add some styling to the Home page. ✅
+
+
+# As a developer, I can add some styling to the NotFound page. ✅
+
+
+# As a developer, I can add React Router to my application. ✅
+
+
+# As a developer, I can add routes to be able to navigate manually to all pages. ✅
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
