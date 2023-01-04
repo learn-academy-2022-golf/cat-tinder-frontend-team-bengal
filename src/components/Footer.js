@@ -23,7 +23,6 @@ const Footer = (args) => {
 
   return (
     <>
-      <img src='./components/resources/Logo_cat.png' />
 
       <Navbar {...args} color="info" fixed='bottom'>
 
@@ -33,9 +32,20 @@ const Footer = (args) => {
       <Collapse isOpen={isOpen} navbar>
 
         <Nav navbar>
-          <NavItem><NavLink href="/catindex">See the cats</NavLink></NavItem>
 
-          <NavItem><NavLink href="/catshow">See a cat</NavLink></NavItem>
+          <NavItem>
+
+            <NavLink href="/catindex">
+              See the cats
+            </NavLink>
+            
+          </NavItem>
+
+          <NavItem>
+            <NavLink href="/catshow">
+              See a cat
+            </NavLink>
+          </NavItem>
 
           <NavItem><NavLink href="/catnew">Create a new cat</NavLink></NavItem>
 
