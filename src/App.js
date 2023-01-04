@@ -2,22 +2,7 @@
 import React, { useState } from 'react';
 import { Routes, Route } from "react-router-dom"
 
-// Styling
 
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-} from 'reactstrap';
 
 // *********************
 // End styling
@@ -43,38 +28,15 @@ import cats from './MockCats.js';
 // End imports
 // Begin App
 // *********************
-const App = (args) => { 
+const App = () => { 
   
-  const [isOpen, setIsOpen] = useState(true);
-  const toggle = () => setIsOpen(!isOpen);
+
   
   return (<>
 
     <Header />
 
-    <Navbar {...args}>
-
-      <NavbarBrand href="/">Team Bengal</NavbarBrand>
-      <NavbarToggler onClick={toggle} />
-
-      <Collapse isOpen={isOpen} navbar>
-
-        <Nav navbar>
-          <NavItem><NavLink href="/catindex">See the cats</NavLink></NavItem>
-
-          <NavItem><NavLink href="/catshow">See a cat</NavLink></NavItem>
-
-          <NavItem><NavLink href="/catnew">Create a new cat</NavLink></NavItem>
-
-          <NavItem><NavLink href="/catedit">Edit a feline</NavLink></NavItem>
-
-          <NavItem><NavLink href="/*">woopsies</NavLink></NavItem>
-
-        </Nav>
-
-      </Collapse>
-
-    </Navbar>
+    
     
     <Routes>
       <Route path="/" element={<Home />} />
