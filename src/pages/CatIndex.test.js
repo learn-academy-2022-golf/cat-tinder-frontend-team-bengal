@@ -5,8 +5,6 @@ import { BrowserRouter } from "react-router-dom"
 
 describe("<CatIndex />", () => {
 
-  it("renders without crashing", () => {})
-
   it("renders cat cards", () => {
     const div = document.createElement("div")
 

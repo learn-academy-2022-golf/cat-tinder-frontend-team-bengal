@@ -13,6 +13,7 @@ const CatIndex = ({ cats }) => {
       {cats?.map((cat, index) => {
         return (
           <Card
+            color="info"
             style={{
               width: "14rem"
             }}
