@@ -4,17 +4,16 @@ to run Yarn after fresh git
 to consider -M attribute for master -> main conversions
 to use "require" keyword for using images in React
 
-# Add a test file for the Home, Header, Footer, and NotFound components with a .test.js extension. ✅
+# As a developer, I can pass the cat mock data in state to my index component. ✅
 
-# Create a test for the Home page that ensures the component will render to the browser. ✅
+# As a user, I can see a page that lists of all the cat names. ✅
 
-# Create a test for the NotFound page that ensures the component will render to the browser. ✅
+# As a developer, I have test coverage on my index component. ✅
 
-# Update the App.test.js test to ensure the component renders to the browser. ✅
+# As a developer, I can refactor the show route to require an id param to show one cat. ✅
 
-# Create tests for the Header component that ensures the component will render to the browser, any images render to the browser, links are clickable. ✅
+# As a user, I can see a page featuring all the information for one cat. ✅
 
-# Create tests for the Footer component that ensures the component will render to the browser and links are clickable. ✅
+# As a user, I can click on a cat name and be taken to a page that shows me all the information about that cat. ✅
 
-Test Suites: 4 passed, 4 total
-Tests:       6 passed, 6 total
+# As a developer, I have test coverage on my show component. ✅

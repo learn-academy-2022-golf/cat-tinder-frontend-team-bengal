@@ -1,11 +1,11 @@
 // React
-import React, { useState } from 'react';
+import React from 'react';
 import { Routes, Route } from "react-router-dom"
 
 
 
 // *********************
-// End styling
+// End imports
 // Begin content
 // *********************
 
@@ -36,8 +36,8 @@ const App = () => {
 
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/catindex" element={<CatIndex />} />
-      <Route path="/catshow" element={<CatShow />} />
+      <Route path="/catindex" element={<CatIndex cats={cats} />} />
+      <Route path="/catshow/:id" element={<CatShow cats={cats} />} />
       <Route path="/catnew" element={<CatNew />} />
       <Route path="/catedit" element={<CatEdit />} />
       <Route path="*" element={<NotFound />} />
