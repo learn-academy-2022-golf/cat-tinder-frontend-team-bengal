@@ -30,14 +30,10 @@ import cats from './MockCats.js';
 // *********************
 const App = () => { 
   
-
-  
   return (<>
 
     <Header />
 
-    
-    
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/catindex" element={<CatIndex />} />
@@ -46,7 +42,7 @@ const App = () => {
       <Route path="/catedit" element={<CatEdit />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
-    <br /><br />
+
     <Footer />
 
   </>);
