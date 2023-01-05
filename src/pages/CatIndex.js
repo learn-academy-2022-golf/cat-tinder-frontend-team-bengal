@@ -22,12 +22,21 @@ const CatIndex = ({ cats }) => {
             <img alt={`profile of a cat named ${cat.name}`} src={cat.image} />
             <CardBody>
               <CardTitle tag="h5">{cat.name}</CardTitle>
+              
               <CardSubtitle className="mb-2 text-muted" tag="h6">
                 Age: {cat.age}
-              </CardSubtitle>
+             
+             </CardSubtitle>
+              
               <NavLink to={`/catshow/${cat.id}`} className="nav-link">
                 See More Details
               </NavLink>
+            
+              <NavLink to={`/catedit/${cat.id}`} className="nav-link">
+                Edit Cat Profile
+              </NavLink>
+          
+
             </CardBody>
           </Card>
         )

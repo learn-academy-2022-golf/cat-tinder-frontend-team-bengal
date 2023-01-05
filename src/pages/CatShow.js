@@ -1,23 +1,23 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { NavLink, useParams } from "react-router-dom"
 
 import {
   Card,
   CardBody,
   CardTitle,
   CardImg,
-  CardText
+  CardText,
 } from 'reactstrap'
 
 const CatShow = ({ cats }) => {
 
   const { id } = useParams()
 
-  console.log("CatShow id", id)
 
   const cat = cats?.find(cat => cat.id === +id)
 
   return (
+  <main>
     <Card className="my-2">
       <CardImg
         alt="Card image cap"
@@ -35,9 +35,16 @@ const CatShow = ({ cats }) => {
         <CardText>
           {cat.enjoys}
         </CardText>
+      
+        <NavLink to={`/catedit/${cat.id}`} className="nav-link">
+                Edit Cat Profile
+        </NavLink>
+      
       </CardBody>
     </Card>
+    
 
+  </main>
   )
 }
 
