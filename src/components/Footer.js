@@ -34,20 +34,18 @@ const Footer = (args) => {
         <Nav navbar>
 
           <NavItem>
-
             <NavLink href="/catindex">
               See the cats
             </NavLink>
-            
           </NavItem>
+
+          <NavItem><NavLink href="/catnew">Create a new cat</NavLink></NavItem>
 
           <NavItem>
             <NavLink href="/catshow">
               See a cat
             </NavLink>
           </NavItem>
-
-          <NavItem><NavLink href="/catnew">Create a new cat</NavLink></NavItem>
 
           <NavItem><NavLink href="/catedit">Edit a feline</NavLink></NavItem>
 

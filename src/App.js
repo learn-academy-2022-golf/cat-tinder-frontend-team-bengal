@@ -1,11 +1,9 @@
-// React
+
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
 
-
-
 // *********************
-// End imports
+// End react imports
 // Begin content
 // *********************
 
@@ -35,10 +33,14 @@ const App = () => {
     console.log("id:", id)
   }
 
-  const createCat = (cat) => {
+  const createCat = (cat) => {}
 
-  }
-  
+  // **********************
+  // End function functions
+  // Begin return statement
+    // **********************
+
+
   return (<>
 
     <Header />
@@ -51,8 +53,6 @@ const App = () => {
       <Route path="/catedit/:id" element={<CatEdit cats={cats} updateCat={updateCat} />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
-
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
     <Footer />
 

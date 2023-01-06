@@ -1,31 +1,23 @@
 
-
-// Boilerplate
 import React from 'react';
 
 import ReactDOM from 'react-dom/client';
 
 import App from './App';
 
-
-// I did this
 import { BrowserRouter } from "react-router-dom"
 
-// Add bootstrap import
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-// Begin root
+// End imports
+// Begin root render
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-  <React.StrictMode>
+  <BrowserRouter>
 
-    <BrowserRouter>
+    <App />
 
-      <App />
-
-    </BrowserRouter>
-
-  </React.StrictMode>
-
+  </BrowserRouter>
 );

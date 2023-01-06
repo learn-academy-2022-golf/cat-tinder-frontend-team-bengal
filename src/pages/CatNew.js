@@ -25,6 +25,7 @@ const CatNew = ( { createCat } ) => {
   return (<div>
 
     <Form>
+    <br /><br /><br />
     <FormGroup>
           <Label for="name">
             Name
@@ -73,6 +74,8 @@ const CatNew = ( { createCat } ) => {
           Submit
         </Button>
     </Form>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
 
   </div>)
 }

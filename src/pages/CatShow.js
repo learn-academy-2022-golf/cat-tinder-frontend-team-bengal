@@ -42,6 +42,8 @@ const CatShow = ({ cats }) => {
       
       </CardBody>
     </Card>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     
 
   </main>

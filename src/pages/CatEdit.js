@@ -1,4 +1,6 @@
+
 import React, { useState }  from 'react'
+
 import { useNavigate, useParams } from "react-router-dom"
 
 import {
@@ -20,7 +22,6 @@ const CatEdit = ({ cats, updateCat }) => {
 
   const handleSubmit = () => {
     updateCat(editCat, currentCat.id)
-    console.log (editCat)
     navigate("/catindex")
   }
 
@@ -71,6 +72,8 @@ const CatEdit = ({ cats, updateCat }) => {
     <Button onClick={handleSubmit} name="submit">
       Submit Updated Cat
     </Button>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     
 </> )
 }

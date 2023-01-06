@@ -9,16 +9,10 @@ import { Card, CardBody, CardTitle, CardSubtitle } from "reactstrap"
 const CatIndex = ({ cats }) => {
 
   return (
-    <main>
+    <main className="splash">
       {cats?.map((cat, index) => {
         return (
-          <Card
-            color="info"
-            style={{
-              width: "14rem"
-            }}
-            key={index}
-          >
+          <Card color="info" style={{width: "14rem"}} key={index}>
             <img alt={`profile of a cat named ${cat.name}`} src={cat.image} />
             <CardBody>
               <CardTitle tag="h5">{cat.name}</CardTitle>
@@ -36,8 +30,8 @@ const CatIndex = ({ cats }) => {
                 Edit Cat Profile
               </NavLink>
           
-
             </CardBody>
+            <br /><br /><br /><br /><br /><br /><br /><br />
           </Card>
         )
       })}
